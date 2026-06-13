@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #87ae73;
+  --secondary-color: hsl(0, 0%, 95%);
+  --background-color: hsl(0, 0%, 65%);
+  --accent: #FFD700; 
+}
+
 html {
   box-sizing: border-box; 
 }
@@ -11,3 +18,41 @@ body {
   padding: 0;
 }
 
+body {
+  display: grid;
+  grid-template-columns: max(250px, 1fr) 4fr;
+  background-color: hsl(0, 0%, 65%);
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+  background-color: var(--primary-color);
+}
+
+
+
+/* MAIN */
+
+main {
+  grid-template-rows: 1fr 5fr;
+}
+
+/* HEADER */
+
+header {
+  grid-row: 1 / 2;
+}
+
+/*  */
+
+/* PROJECT MENU */
+
+
+
+/* ANNOUNCEMENTS */
+
+
+
+/* TRENDING */
